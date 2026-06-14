@@ -100,12 +100,13 @@
   margin: 0;
   line-height: 1.5;
   word-break: keep-all;
+}
+
 .food-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
 }
 
 .image-circle {
@@ -117,12 +118,6 @@
 }
 
 .image-circle img { width: 100%; height: 100%; object-fit: cover; }
-.food-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
 .food-card h3 {
   font-size: 1.15rem;
@@ -130,7 +125,7 @@
   margin-bottom: 6px;
 }
 
-.food-card .tagline {
+.food-card .brand {
   font-weight: bold;
   color: #ccc;
   margin-bottom: 4px;
@@ -140,7 +135,7 @@
   font-size: 0.9rem;
   color: #888;
 }
-.tagline { font-weight: bold; margin-bottom: 5px; }
+.brand { font-weight: bold; margin-bottom: 5px; }
 .description { font-size: 0.9rem; color: var(--gray-text); }
 
 .music-card {
@@ -187,4 +182,63 @@
 .music-card .one p:last-child {
   margin-bottom: 0;
   color: #cccccc;
+}
+
+.netflix-footer {
+    background-color: #141414; 
+    color: #808080;            
+    padding: 60px 4%;
+    font-size: 14px;
+    line-height: 1.8;          
+    box-sizing: border-box;
+}
+
+.footer-sns {
+    margin-bottom: 30px;      
+}
+
+.footer-sns .sns-text {
+    color: #ffffff;            
+    margin-right: 35px;        
+    font-size: 16px;
+    opacity: 0.8;              
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;              
+    width: 100%;
+    margin-bottom: 35px;      
+}
+
+.link-col span {
+    display: block;
+    color: #808080;
+    margin-bottom: 12px;      
+}
+
+.footer-service {
+    margin-bottom: 35px;       
+}
+
+.service-btn {
+    background: transparent;    
+    color: #808080;            
+    border: 1px solid #808080; 
+    padding: 6px 12px;         
+    font-size: 13px;
+    cursor: default;           
+}
+
+.footer-info p {
+    margin: 4px 0;             
+    font-size: 12px;           
+    word-break: keep-all;      
+}
+
+.footer-info .copyright {
+    margin-top: 25px;          
+    font-size: 12px;
+    text-align: center;
 }
